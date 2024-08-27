@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/dashboard.css">
+    <script src="assets/scripts/script.js" defer></script>
+    <title>Dashboard</title>
+</head>
+
+<!-- Nada -->
+<body>
+
+<!-- Begining of navigation bar  -->
+    <div class="nav">
+        <div class="left">
+        
+          <h1 >TodoApp</h1>
+          <a id="dashboard" href="dashboard.html">Dashboard</a>
+          <a id= "profile" href="../Profile/profile.html">Profile</a>
+          
+        
+        </div>
+        <div class="right">
+          <div id="datetime"></div>
+        </div>
+<!-- Ending of navigation bar  -->
+
+
+    </div>
+<!-- Title -->
+    <h1 class="welcome"> Welcome <span id="userName">name</span></h1>
+
+<!-- Begining of create new task input section -->
+    <div class="mainCard">
+        <h2>Create new task:</h2>
+        <div class="createTask"> 
+            <form class="addTask">
+                <input type="text" id="taskName" placeholder="Task Name" required >
+                <input type="submit" value="+" id="plusButton">
+            </form>
+        </div>
+<!-- Ending of create new task input section -->
+
+<!-- Salah -->
+<h2>Tasks list:</h2>      
+        <div class="tasksList" id="tasksList" >
+
+        </div>
+   
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!--declaration for html type-->
+
+<head>
+  <meta charset="utf-8"> <!--specifies the character set for the document-->
+  <meta name="viewport" content="width=device-width , initial-scale=1.0" /> <!--#????????-->
+  <link rel="stylesheet" href="./assets/style/style.css"><!--#connect to css file-->
+  <title>TodoApp</title> <!--#title of the webpage-->
+
+
+</head>
+<!-- --------------------------------Menna -------------------------------------------------------------------------------------- -->
+
+<body class="light-theme">
+  <div class="nav">
+    <div class="left">
+      <h1><b>TodoApp</b></h1>
+      <a id="dashboard" href="../dashboard/dashboard.html">Dashboard</a>
+      <a id="profile" href="#">Profile</a>
+    </div>
+    <div class="right">
+      <div id="datetime"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="above">
+      <div class="info">
+        <div class="pimg">
+          <img src="../Profile/assets/imgs/user_kids_avatar_user_profile_icon_149314 1.png" alt="Profile Picture">
+        </div>
+        <div class="pname">
+          <a id="userName">name</a>
+          <a>Business Analyst</a>
+        </div>
+      </div>
+      <div class="themecolor">
+        <h4>Change Theme Color:</h4>
+        <div class="themecards">
+          <button id="dark" class="themecolorcard "></button>
+          <button id="light" class="themecolorcard "></button>
+        </div>
+      </div>
+    </div>
+    <div class="below">
+      <h4>Sign in / Sign out: </h4>
+      <!-- -------------------------Salah -------------------------------------------------------------------------------------- -->
+      <div class="timerContainer">
+        <div id="timer">
+          <p>00:00</p>
+        </div>
+        <div class="timerButtons">
+          <button class="timerButton" id="startWork">Start Work</button>
+          <button class="timerButton" id="breakWork">Take a break</button>
+          <button class="timerButton" id="finishWork">Finish Work</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/scripts/project.js"></script>
+
+</body>
+
+</html>
